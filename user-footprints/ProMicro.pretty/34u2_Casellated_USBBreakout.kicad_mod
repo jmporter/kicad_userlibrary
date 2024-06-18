@@ -649,4 +649,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3c69f879-b4b0-4503-aa71-20e65886acf6")
 	)
+	(model "C:/Users/Jared/Documents/KiCad/kicad_userlibrary/user-models/DEV-15795_SPARKFUN_QWIIC_PRO_MICRO v2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

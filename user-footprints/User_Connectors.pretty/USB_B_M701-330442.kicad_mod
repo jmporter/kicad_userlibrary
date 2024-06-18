@@ -198,4 +198,15 @@
 		(remove_unused_layers no)
 		(uuid "8a049b87-6330-4ee0-be9c-438286fb6ea1")
 	)
+	(model "C:/Users/Jared/Documents/KiCad/kicad_userlibrary/user-models/M701-330442.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
