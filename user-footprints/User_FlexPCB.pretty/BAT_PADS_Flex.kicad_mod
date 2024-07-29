@@ -1,0 +1,100 @@
+(footprint "BAT_PADS_Flex"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J2"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cc657d67-5d1e-48a3-b64e-b79c20638d27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b943ceee-9ddb-41e0-a9f3-fee1abedc434")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "User_Connectors:BAT_PADS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54055f5d-0475-4dd0-b4cd-60e1e5afb244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb0832b3-fdb5-42f5-af23-75528937f801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f634c3fd-d869-457e-9774-888dc3fd4d22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bcdcc75a-d597-4122-98bd-60c7f2a6eb02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1 180)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin -0.2)
+		(solder_paste_margin -0.2)
+		(thermal_bridge_angle 45)
+		(uuid "4b4b53c1-3b51-48c0-9447-a6abb59c2bf4")
+	)
+	(pad "2" smd rect
+		(at 0 4 180)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin -0.2)
+		(solder_paste_margin -0.2)
+		(thermal_bridge_angle 45)
+		(uuid "3807f61a-7bd3-4c40-8a3f-6a4a2f5eaebb")
+	)
+)
