@@ -342,7 +342,7 @@
 		(remove_unused_layers no)
 		(uuid "6c563a81-13cb-4281-9bdd-a48057e6115f")
 	)
-	(model "C:/Users/Jared/Documents/KiCad User Library/user-models/Amazon_RJ45 v1.step"
+	(model "C:/Users/Jared/Documents/KiCad/kicad_userlibrary/user-models/Amazon_RJ45 v1.step"
 		(offset
 			(xyz 4.445 -4.445 0)
 		)
