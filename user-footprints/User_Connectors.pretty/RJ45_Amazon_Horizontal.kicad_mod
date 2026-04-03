@@ -1,4 +1,4 @@
-(footprint "RJ45_Amazon"
+(footprint "RJ45_Amazon_Horizontal"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "RJ45_Amazon"
+	(property "Value" "RJ45_Amazon_Horizontal"
 		(at 4.455 13.26 0)
 		(layer "F.Fab")
 		(uuid "3c65663d-68bf-4041-8d98-97a22db86ef2")
@@ -98,7 +98,7 @@
 		(uuid "a46237e4-fc82-40bc-b4c9-66898777f035")
 	)
 	(fp_line
-		(start -3.565 -3.81)
+		(start -3.565 -4.28)
 		(end -3.565 7.65)
 		(stroke
 			(width 0.12)
@@ -109,7 +109,7 @@
 	)
 	(fp_line
 		(start -3.565 11.15)
-		(end -3.565 12.7)
+		(end -3.565 14.59)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -118,8 +118,8 @@
 		(uuid "233ff76a-4dca-4d7b-ab43-4c59de217f1a")
 	)
 	(fp_line
-		(start 12.455 -3.81)
-		(end -3.565 -3.81)
+		(start 12.455 -4.28)
+		(end -3.565 -4.28)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -128,7 +128,7 @@
 		(uuid "4e1be0bc-cdfe-4d12-96e9-f3a8d55eec9e")
 	)
 	(fp_line
-		(start 12.455 -3.81)
+		(start 12.455 -4.28)
 		(end 12.455 7.65)
 		(stroke
 			(width 0.12)
@@ -139,7 +139,7 @@
 	)
 	(fp_line
 		(start 12.455 11.15)
-		(end 12.455 12.7)
+		(end 12.455 14.59)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -148,8 +148,8 @@
 		(uuid "6fae7fa5-ac44-4f8c-8bc9-ba3caf279a15")
 	)
 	(fp_line
-		(start 12.455 12.7)
-		(end -3.565 12.7)
+		(start 12.455 14.59)
+		(end -3.565 14.59)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -157,49 +157,20 @@
 		(layer "F.SilkS")
 		(uuid "55339550-87cf-428f-92f0-3bf5ba4bcba3")
 	)
-	(fp_line
-		(start -3.8 -4)
-		(end 12.7 -4)
+	(fp_rect
+		(start -3.9 -4.6)
+		(end 12.8 14.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(fill none)
 		(layer "F.CrtYd")
-		(uuid "7561cfc4-64d5-45a6-91fe-1c84a0da75ac")
+		(uuid "9e44a860-8429-4063-9ca5-b1c16161dae2")
 	)
 	(fp_line
-		(start -3.8 12.9)
-		(end -3.8 -4)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "7c5d7424-b08d-4c90-bea8-d3329e6cac84")
-	)
-	(fp_line
-		(start 12.7 -4)
-		(end 12.7 12.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "a3edb5bf-1bef-4a64-9ca6-f69740765d24")
-	)
-	(fp_line
-		(start 12.7 12.9)
-		(end -3.8 12.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "4411b522-1b93-4432-9504-a24530ed2285")
-	)
-	(fp_line
-		(start -3.475 -3.81)
-		(end -3.455 12.7)
+		(start -3.455 -2.84)
+		(end -3.455 14.48)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -208,8 +179,18 @@
 		(uuid "a2a642d7-f316-4b75-a860-a1b4c23925cb")
 	)
 	(fp_line
-		(start 12.345 -3.81)
-		(end -3.475 -3.81)
+		(start -3.455 -2.84)
+		(end -2.125 -4.17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf844633-37ba-4777-872c-2cc70edc91ae")
+	)
+	(fp_line
+		(start 12.345 -4.17)
+		(end -2.125 -4.17)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -218,8 +199,8 @@
 		(uuid "f86ce990-394b-4600-8b6f-d7030e8ffb7a")
 	)
 	(fp_line
-		(start 12.345 12.7)
-		(end -3.455 12.7)
+		(start 12.345 14.48)
+		(end -3.455 14.48)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -228,8 +209,8 @@
 		(uuid "bc32b9c1-b785-4574-b38f-e900a51cff0c")
 	)
 	(fp_line
-		(start 12.345 12.7)
-		(end 12.345 -3.81)
+		(start 12.345 14.48)
+		(end 12.345 -4.17)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -342,27 +323,39 @@
 		(remove_unused_layers no)
 		(uuid "6c563a81-13cb-4281-9bdd-a48057e6115f")
 	)
-	(model "C:/Users/Jared/Documents/KiCad User Library/user-models/Amazon_RJ45 v1.step"
+	(model "C:/Users/Jared/Documents/KiCad User Library/user-models/RJ45_Horizontal.step"
 		(hide yes)
 		(offset
-			(xyz 4.445 -4.445 1.5)
+			(xyz -3.5 3.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz 0 0 90)
 		)
 	)
-	(model "C:/Users/Jared/Documents/KiCad User Library/user-models/RJ46_Vertical_Amazon_DIGIkey.step"
+	(model "C:/Users/Jared/Documents/KiCad User Library/user-models/rj45 te.stp"
+		(hide yes)
 		(offset
-			(xyz 4.5 -4.5 16.1)
+			(xyz 4.45 -14.6 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 180)
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/Users/Jared/Documents/KiCad User Library/user-models/RJ45_Horizontal_Amazon_DIgikey.step"
+		(offset
+			(xyz 4.45 -14.7 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
 		)
 	)
 )

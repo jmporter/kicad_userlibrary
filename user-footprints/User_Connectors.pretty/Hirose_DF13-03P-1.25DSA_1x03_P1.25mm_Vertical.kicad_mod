@@ -483,7 +483,7 @@
 		(remove_unused_layers no)
 		(uuid "ccb902c0-4d66-4e2a-b8f6-802942a8fb6f")
 	)
-	(model "C:/Users/Jared/Documents/KiCad/kicad_userlibrary/user-models/DF13-3P-1.25DSA--3DModel-STEP-1.STEP"
+	(model "C:/Users/Jared/Documents/KiCad User Library/user-models/DF13-3P-1.25DSA--3DModel-STEP-1.STEP"
 		(offset
 			(xyz -13.75 -25 1.5)
 		)
