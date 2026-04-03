@@ -1,0 +1,78 @@
+(footprint "2mmToolingHole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.05 -4.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "af91e698-3e6e-4000-97c1-f47dedd17e0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2mmToolingHole"
+		(at 0.05 -3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "238a8570-d9b7-4e07-9d8a-d3e764f63ec2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d7792fb-90c5-4f9d-b85f-6a7e4e85f764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "534057c4-9640-4e46-9a8a-32838b6f6d3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3700618-1b10-449a-879f-2248ff89c85f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Mask")
+		(clearance 0.5)
+		(uuid "58ac5c42-d267-4723-8548-ef4890787895")
+	)
+	(embedded_fonts no)
+)

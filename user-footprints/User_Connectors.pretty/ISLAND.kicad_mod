@@ -1,0 +1,78 @@
+(footprint "ISLAND"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9d499d6e-4182-4925-a9a7-68d5bb577f42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ISLAND"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7da2106d-2930-4a89-ae86-233b13c67d54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfaea702-7a84-4613-9df9-152df78a158a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93ac0f89-f106-4756-9d7a-29d4bd7fc3aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "70451eb3-ff7f-4d3e-8f23-5c34f53302df")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(clearance 0.5)
+		(uuid "d2760e7e-3e49-4443-a217-e30eac612430")
+	)
+	(embedded_fonts no)
+)
